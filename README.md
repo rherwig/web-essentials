@@ -34,6 +34,16 @@ in the respective README, which each *essence* will contain):
 3. Start the development server via `npm start`
 4. Navigate to `localhost:3000` in your web browser
 
+>
+> **Important**
+> 
+> The scope of each *essence* is usually described within its README.
+> It does potentially not showcase best-practices that exceed this scope.
+> 
+> This means: An *essence* showing how to implement a service-worker might not
+> follow best-practices on how to lay out an HTML index document. If there is
+> no *essence* for those out-of-scope parts, you might need to refer to 
+> external resources.
 
 ## License
 MIT
