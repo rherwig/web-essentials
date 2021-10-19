@@ -91,6 +91,7 @@ typings/
 # Project
 dist
 var/*
+essences/_template
 
 .env
 .env.test

@@ -1,0 +1,12 @@
+{
+  "name": "@hrwg/font-loading",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.6.10"
+  }
+}

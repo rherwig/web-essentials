@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+body.fonts-loaded {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Lato-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/Lato-Black.ttf');
+    font-weight: 900;
+}

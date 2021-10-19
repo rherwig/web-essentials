@@ -45,5 +45,9 @@ in the respective README, which each *essence* will contain):
 > no *essence* for those out-of-scope parts, you might need to refer to 
 > external resources.
 
+
+## Essences
+* [Font Loading](essences/font-loading)
+
 ## License
 MIT
