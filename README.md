@@ -49,6 +49,7 @@ in the respective README, which each *essence* will contain):
 ## Essences
 * [Font Loading](essences/font-loading)
 * [PWA Manifest and Icons](essences/pwa-manifest)
+* [Vue Server Side Rendering](essences/vue-ssr)
 
 ## License
 MIT

@@ -1,0 +1,22 @@
+{
+  "name": "@hrwg/template",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node server",
+    "production": "cross-env NODE_ENV=production node server",
+    "build": "npm run build:server && npm run build:client",
+    "build:client": "vite build --ssrManifest --outDir dist/client",
+    "build:server": "vite build --ssr src/server/index.js --outDir dist/server"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "cross-env": "^7.0.3",
+    "vite": "^2.6.10"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.2.20",
+    "express": "^4.17.1",
+    "vue": "^3.2.20"
+  }
+}
