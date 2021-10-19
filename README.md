@@ -48,6 +48,7 @@ in the respective README, which each *essence* will contain):
 
 ## Essences
 * [Font Loading](essences/font-loading)
+* [PWA Manifest and Icons](essences/pwa-manifest)
 
 ## License
 MIT
